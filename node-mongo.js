@@ -13,7 +13,7 @@ mongoDbClient.connect(url,(err,client)=>{
         //create a collection and insert the record
         db.collection('users').insertOne({
             name:"Indra",
-            age:31,
+            age:30,
             location:"Virginia Beach"
         },function(err, resp){
             if (err){
